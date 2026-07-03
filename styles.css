@@ -1,0 +1,58 @@
+body {
+    background-image: url(menu_bg.jpg);
+}
+
+.container {
+    background-color: rgb(223, 217, 179);
+}
+
+h1 {
+    font-family: "Monaco";
+    font-size: 80px;
+}
+
+.alert {
+    background-color: rgba(213, 249, 213, 0.816);
+}
+
+#menu-items {
+    padding-bottom: 24px;
+}
+
+.menu-img {
+    height: 350px;
+    object-fit: cover;
+    border-radius: 12px;
+    padding-bottom: 12px;
+}
+
+.card-title {
+    font-family: "Monaco";
+    font-size: 36px;
+}
+
+.card {
+    background-color: rgb(238, 227, 159);
+    border-radius: 12px;
+    border: solid rgb(148, 112, 87);
+}
+
+.price {
+    font-size: 32px;
+    font-family: "Monaco";
+}
+
+.badge {
+    background-color: rgb(247, 182, 42);
+    border-radius: 12px;
+}
+
+.btn {
+    background-color: rgb(74, 105, 89);
+    color: white;
+    font-size: 32px;
+    font-family: "Monaco";
+    border-radius: 12px;
+}
+
+
