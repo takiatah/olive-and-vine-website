@@ -16,11 +16,11 @@ h1 {
 }
 
 #menu-items {
-    padding-bottom: 24px;
+    padding: 24px;
 }
 
 .menu-img {
-    height: 350px;
+    height: 300px;
     object-fit: cover;
     border-radius: 12px;
     padding-bottom: 12px;
@@ -35,6 +35,8 @@ h1 {
     background-color: rgb(238, 227, 159);
     border-radius: 12px;
     border: solid rgb(148, 112, 87);
+    height: 550px;
+    width: 400px;
 }
 
 .price {
@@ -53,6 +55,10 @@ h1 {
     font-size: 32px;
     font-family: "Monaco";
     border-radius: 12px;
+    margin: 15px;
 }
 
+label {
+    padding-bottom: 15px;
+}
 
