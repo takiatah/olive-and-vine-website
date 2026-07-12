@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1">
+
+    <title>Olive & Vine Menu</title>
+    <meta name="description" content="A website for a concept restaurant Olive & Vine">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navigation navbar navbar-expand-lg sticky-top bg-light" >
+        <div class="navigation container-fluid">
+            <a class="navbar-brand nav-logo" href="index.html">
+                <img src="images/logo.png" alt="Logo" class="nav-logo" width="50" height="50" class="d-inline-block">
+                Olive & Vine
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#pages" aria-controls="pages" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="pages">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="reservation.html">Reservations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="order.html">Order Online</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2 nav-search" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success nav-search" id="nav-search-btn" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container py-4">
+        <div class="row">
+            <div class="col-12">
+                <div class="text-center">
+                    <img src="images/logo.png" class="img-fluid" alt="Olive & Vine Logo">
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1>Our Menu</h1>
+            </div>
+            <div class="col-12 alert">
+                Our restaurant will be closed on New Year's Day.
+            </div>
+        </div>
+
+        <div class="row g-4" id="menu-items">
+            <div class="col-6 col-lg-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h2 class="card-title">Chicken Gyro <span class="badge">New</span></h2>
+                        <p class="card-text">Chicken, pita, tzatziki.</p>
+                        <img src="images/chicken_gyro.jpg" class="card-img-top menu-img" alt="Chicken Gyro">
+                        <p class="card-text text-center price">$7.00</p>
+                    </div>
+                </div>
+            </div>           
+
+            <div class="col-6 col-lg-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h2 class="card-title">Falafel</h2>
+                        <p class="card-text">Chickpea, herbs, spices.</p>
+                        <img src="images/falafel.jpg" class="card-img-top menu-img" alt="Falafel">
+                        <p class="card-text text-center price">$7.00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-lg-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h2 class="card-title">Greek Salad</h2>
+                        <p class="card-text">Cucumbers, onion, feta cheese.</p>
+                        <img src="images/greek_salad.jpg" class="card-img-top menu-img" alt="Greek Salad">
+                        <p class="card-text text-center price">$7.00</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-6 col-lg-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h2 class="card-title">Pasta Salad</h2>
+                        <p class="card-text">Lettuce, vegetables, mozzarella.</p>
+                        <img src="images/pasta_salad.jpg" class="card-img-top menu-img" alt="Pasta Salad">
+                        <p class="card-text text-center price">$7.00</p>
+                    </div>
+                </div>
+            </div>  
+
+            <div class="col-6 col-lg-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h2 class="card-title">Spaghetti</h2>
+                        <p class="card-text">Pasta, tomato sauce, parmesan.</p>
+                        <img src="images/spaghetti.png" class="card-img-top menu-img" alt="Spaghetti">
+                        <p class="card-text text-center price">$7.00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-lg-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h2 class="card-title">Chicken Over Rice</h2>
+                        <p class="card-text">Chicken, rice, vegetables.</p>
+                        <img src="images/chicken_over_rice.jpg" class="card-img-top menu-img" alt="Chicken Over Rice">
+                        <p class="card-text text-center price">$7.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <div class="text-center">
+                    <a type="button" role="button" class="btn btn-primary" href="order.html">Order Online</a>
+                    <a type="button" role="button" class="btn btn-primary" href="reservation.html">Make a Reservation</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

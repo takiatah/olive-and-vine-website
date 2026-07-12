@@ -2,8 +2,24 @@ body {
     background-image: url(images/menu_bg.jpg);
 }
 
+.nav-logo {
+    font-family: "Monaco";
+    font-size: 30px;
+}
+
+.nav-search {
+    height: 3rem;
+    margin: auto;
+    padding: auto;
+}
+
+#nav-search-btn {
+    font-size: 1.5rem;
+}
+
+
 .container {
-    background-color: rgb(223, 217, 179);
+    background-color: rgb(252, 240, 196);
 }
 
 h1 {
@@ -32,7 +48,7 @@ h1 {
 }
 
 .card {
-    background-color: rgb(238, 227, 159);
+    background-color: rgb(245, 238, 205);
     border-radius: 12px;
     border: solid rgb(148, 112, 87);
     height: 550px;
