@@ -10,21 +10,31 @@ body {
 .nav-search {
     height: 3rem;
     margin: auto;
-    padding: auto;
 }
 
 #nav-search-btn {
     font-size: 1.5rem;
+    margin: .5rem;
 }
 
+.logo {
+    width: 30vw;
+    margin: auto;
+}
+
+.header, .buttons {
+    background-color: rgb(252, 240, 196);
+    padding: 1%;
+}
 
 .container {
     background-color: rgb(252, 240, 196);
+    padding: 1%;
 }
 
 h1 {
     font-family: "Monaco";
-    font-size: 80px;
+    font-size: max(32px, 6vw);
 }
 
 .alert {
@@ -32,32 +42,41 @@ h1 {
 }
 
 #menu-items {
-    padding: 24px;
+    padding: 2vw;
 }
 
 .menu-img {
-    height: 300px;
+    aspect-ratio: 1 / 1;
     object-fit: cover;
     border-radius: 12px;
-    padding-bottom: 12px;
+    object-position: center;
+    padding: .3em;
 }
 
 .card-title {
     font-family: "Monaco";
-    font-size: 36px;
+    font-size: max(24px, 3vw);
+    
 }
 
 .card {
     background-color: rgb(245, 238, 205);
     border-radius: 12px;
     border: solid rgb(148, 112, 87);
-    height: 550px;
-    width: 400px;
+    height: 20px;
+    width: 100%;
+    padding: 0px;
+    object-position: center;
+    max-width: 440px;
+    margin: 0 auto;
 }
 
+
 .price {
-    font-size: 32px;
+    font-size: max(24px, 2.5vw);
     font-family: "Monaco";
+    padding-top: .2em;
+    padding-bottom: .05em;
 }
 
 .badge {
@@ -68,7 +87,7 @@ h1 {
 .btn {
     background-color: rgb(74, 105, 89);
     color: white;
-    font-size: 32px;
+    font-size: max(24px, 2.5vw);
     font-family: "Monaco";
     border-radius: 12px;
     margin: 15px;
