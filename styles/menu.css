@@ -1,5 +1,5 @@
 body {
-    background-image: url(images/menu_bg.jpg);
+    background-image: url(../images/menu_bg.jpg);
 }
 
 .nav-logo {
@@ -17,6 +17,11 @@ body {
     margin: .5rem;
 }
 
+.menu-new {
+    border-radius: 12px;
+    margin: 2% auto;
+}
+
 .logo {
     width: 30vw;
     margin: auto;
@@ -25,6 +30,29 @@ body {
 .header, .buttons {
     background-color: rgb(252, 240, 196);
     padding: 1%;
+    width: 96%;
+    border-radius: 12px;
+    margin: 1vh auto;
+    border: solid rgb(148, 112, 87);
+}
+
+.new-menu-header {
+    width: 96%;
+    border-radius: 12px;
+    margin: 1vh auto;
+    background-color: rgb(74, 105, 89);
+    border: solid rgb(252, 240, 196);
+    color: white;
+    padding: 3vh;
+}
+
+.menu-new-box {
+    background-color: rgb(148, 112, 87) ;
+    padding: 1vw;
+    border-radius: 12px;
+    font-size: max(16px, 4vw);
+    border: solid rgb(252, 240, 196);
+    margin: 2% auto;
 }
 
 .container {
@@ -90,7 +118,7 @@ h1 {
     font-size: max(24px, 2.5vw);
     font-family: "Monaco";
     border-radius: 12px;
-    margin: 15px;
+    margin: 2%;
 }
 
 label {

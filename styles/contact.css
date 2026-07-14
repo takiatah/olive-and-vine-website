@@ -1,0 +1,46 @@
+body {
+    background-image: url(../images/menu_bg.jpg);
+}
+
+.nav-logo {
+    font-family: "Monaco";
+    font-size: 30px;
+}
+
+.nav-search {
+    height: 3rem;
+    margin: auto;
+}
+
+#nav-search-btn {
+    font-size: 1.5rem;
+    margin: .5rem;
+}
+
+.logo {
+    width: 30vw;
+    margin: auto;
+}
+
+.container {
+    background-color: rgb(252, 240, 196);
+    padding: 1%;
+}
+
+h1 {
+    font-family: "Monaco";
+    font-size: max(32px, 6vw);
+}
+
+.alert {
+    background-color: rgba(213, 249, 213, 0.816);
+}
+
+.btn {
+    background-color: rgb(74, 105, 89);
+    color: white;
+    font-size: max(24px, 2.5vw);
+    font-family: "Monaco";
+    border-radius: 12px;
+    margin: 15px;
+}
