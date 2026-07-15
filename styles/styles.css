@@ -54,22 +54,22 @@ header {
     margin-bottom: 0px;
     padding: 3vh 3vw;
     font-family: "Trebuchet MS", Arial, sans-serif;
-    font-size: max(16px, 2vw);;
+    font-size: max(24px, 2.5vw);;
     color: aliceblue;
-}
-
-.menu {
-    height: 80vh;
-    width: 30vw;
-    object-fit: cover;
-    object-position: center;
-    margin: 2vh auto;
 }
 
 .med h2 {
     font-family: "Playfair Display", serif;
-    font-size: max(24px, 5vw);;
+    font-size: max(32px, 5vw);;
     color: rgb(71, 31, 2);
+}
+
+.menu {
+    height: 80vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    margin: 2vh auto;
 }
 
 .logo {
@@ -108,7 +108,7 @@ h1 {
     background-color: rgb(74, 105, 89);
     color: white;
     font-size: max(24px, 2.5vw);
-    font-family: "Monaco";
+    font-family: "Playfair Display", serif;
     border-radius: 12px;
     margin: 15px;
     border-color: rgb(71, 31, 2);
