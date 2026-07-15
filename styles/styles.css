@@ -1,7 +1,3 @@
-body {
-    background-image: url(../images/menu_bg.jpg);
-}
-
 .nav-logo {
     font-family: "Monaco";
     font-size: 30px;
@@ -17,81 +13,90 @@ body {
     margin: .5rem;
 }
 
-.menu-new {
-    border-radius: 12px;
+header {
+    padding: 3%;
+    background-image: url(../images/home-header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.menu-new-text {
-    border-radius: 12px;
-    background-color: rgb(74, 105, 89);
+.light {
+    background-color: rgb(252, 240, 196);
+    margin-bottom: 0px;
+    padding: 3vh 3vw;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    font-size: max(16px, 1.5vw);;
+}
+
+.light h2 {
+    font-family: "Playfair Display", serif;
+    font-size: max(24px, 5vw);;
+    color: rgb(71, 31, 2);
+}
+
+.dark {
+    background-color: rgb(71, 31, 2);
     color: white;
-    font-size: max(32px, 5vw);
+    padding: 3vh 3vw;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    font-size: max(16px, 1.5vw);;
+}
+
+.dark h2 {
+    font-family: "Playfair Display", serif;
+    font-size: max(24px, 5vw);;
+    color: rgb(252, 240, 196);
+}
+
+.med {
+    background-color: rgb(148, 112, 87);
+    margin-bottom: 0px;
+    padding: 3vh 3vw;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    font-size: max(16px, 2vw);;
+    color: aliceblue;
+}
+
+.menu {
+    height: 80vh;
+    width: 30vw;
+    object-fit: cover;
+    object-position: center;
+    margin: 2vh auto;
+}
+
+.med h2 {
+    font-family: "Playfair Display", serif;
+    font-size: max(24px, 5vw);;
+    color: rgb(71, 31, 2);
 }
 
 .logo {
     width: 30vw;
     margin: auto;
-}
-
-.header, .buttons {
-    background-color: rgb(252, 240, 196);
-    padding: 1%;
-    width: 96%;
-    border-radius: 12px;
-    margin: 1vh auto;
-    border: solid rgb(148, 112, 87);
-}
-
-.container {
-    background-color: rgb(252, 240, 196);
-    padding: 1%;
+    padding-bottom: 3vh;
 }
 
 h1 {
-    font-family: "Monaco";
-    font-size: max(32px, 6vw);
+    font-family: "Playfair Display", serif;
+    font-size: max(32px, 6.5vw);
+    background-color: rgb(148, 112, 87);
+    border: solid 2px rgb(71, 31, 2);
+    border-radius: 12px;
+    color: white;
 }
 
-.alert {
-    background-color: rgba(213, 249, 213, 0.816);
-}
-
-#menu-items {
+.pics {
     padding: 2vw;
 }
 
-.menu-img {
-    aspect-ratio: 1 / 1;
+.food-border {
+    height: 50vh;
+    width: 100vw;
     object-fit: cover;
-    border-radius: 12px;
+    margin: 0px;
     object-position: center;
-    padding: .3em;
-}
-
-.card-title {
-    font-family: "Monaco";
-    font-size: max(24px, 3vw);
-    
-}
-
-.card {
-    background-color: rgb(245, 238, 205);
-    border-radius: 12px;
-    border: solid rgb(148, 112, 87);
-    height: 20px;
-    width: 100%;
-    padding: 0px;
-    object-position: center;
-    max-width: 440px;
-    margin: 0 auto;
-}
-
-
-.price {
-    font-size: max(24px, 2.5vw);
-    font-family: "Monaco";
-    padding-top: .2em;
-    padding-bottom: .05em;
 }
 
 .badge {
@@ -106,6 +111,7 @@ h1 {
     font-family: "Monaco";
     border-radius: 12px;
     margin: 15px;
+    border-color: rgb(71, 31, 2);
 }
 
 label {

@@ -48,11 +48,12 @@ body {
 
 .menu-new-box {
     background-color: rgb(148, 112, 87) ;
-    padding: 1vw;
+    padding: .25em;
     border-radius: 12px;
-    font-size: max(16px, 4vw);
-    border: solid rgb(252, 240, 196);
-    margin: 2% auto;
+    font-size: max(32px, 4vw);
+    border: solid rgb(71, 31, 2);
+    margin: 1vw auto;
+    width: 100%
 }
 
 .container {
@@ -61,16 +62,32 @@ body {
 }
 
 h1 {
-    font-family: "Monaco";
+    font-family: "Playfair Display", serif;
     font-size: max(32px, 6vw);
+}
+
+.menu-items h1 {
+    color: rgb(252, 240, 196);
+    background-color: rgb(71, 31, 2);
+    font-size: max(32px, 4vw);
+    margin-top: 0;
+}
+
+.menu-items {
+    background-color: rgb(148, 112, 87);
+    margin: 2vw;
+    border: 3px solid rgb(71, 31, 2);
+    padding-bottom: 5vh;
+    padding-top: 0px;
+    border-radius: 12px;
 }
 
 .alert {
     background-color: rgba(213, 249, 213, 0.816);
 }
 
-#menu-items {
-    padding: 2vw;
+.menu-items {
+    padding: 1vw;
 }
 
 .menu-img {
@@ -82,8 +99,8 @@ h1 {
 }
 
 .card-title {
-    font-family: "Monaco";
-    font-size: max(24px, 3vw);
+    font-family: "Playfair Display", serif;
+    font-size: max(24px, 2.1vw);
     
 }
 
@@ -102,7 +119,7 @@ h1 {
 
 .price {
     font-size: max(24px, 2.5vw);
-    font-family: "Monaco";
+    font-family: "Playfair Display", serif;
     padding-top: .2em;
     padding-bottom: .05em;
 }
@@ -116,9 +133,10 @@ h1 {
     background-color: rgb(74, 105, 89);
     color: white;
     font-size: max(24px, 2.5vw);
-    font-family: "Monaco";
+    font-family: "Playfair Display", serif;
     border-radius: 12px;
     margin: 2%;
+    border-color: rgb(71, 31, 2);
 }
 
 label {
