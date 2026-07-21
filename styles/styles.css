@@ -28,14 +28,19 @@ h1 {
     font-family: "Playfair Display", serif;
     color: rgb(245, 238, 205);
     text-shadow: 1px 1px 3px black;
-    font-size: max(32px, 6.5vw);
+    font-size: max(34px, 6.5vw);
 }
 
 h2 {
     font-family: "Playfair Display", serif;
     color: rgb(71, 31, 2);
-    text-shadow: 1px 1px 3px rgb(71, 31, 2);
-    font-size: max(24px, 5vw);
+    text-shadow: 1px 1px 2em rgb(71, 31, 2);
+    font-size: max(32px, 5vw);
+}
+
+h3 {
+    font-family: "Playfair Display", serif;
+    padding-top: 1em;
 }
 
 .logo {
@@ -45,11 +50,12 @@ h2 {
 
 .container {
     background-color: rgb(245, 238, 205);
-    padding: 1%;
 }
 
 .alert {
-    background-color: rgba(213, 249, 213, 0.816);
+    background-color: rgba(234, 246, 178, 0.862);
+    border-radius: 0px;
+    width: 100vw;
 }
 
 .badge {
