@@ -1,114 +1,24 @@
-body {
-    background-image: url(../images/menu_bg.jpg);
+.header {
+    position: relative;
 }
 
-.nav-logo {
-    font-family: "Monaco";
-    font-size: 30px;
-}
-
-.nav-search {
-    height: 3rem;
-    margin: auto;
-}
-
-#nav-search-btn {
-    font-size: 1.5rem;
-    margin: .5rem;
-}
-
-.menu-new {
-    border-radius: 12px;
-}
-
-.menu-new-text {
-    border-radius: 12px;
-    background-color: rgb(74, 105, 89);
-    color: white;
-    font-size: max(32px, 5vw);
-}
-
-.logo {
-    width: 30vw;
-    margin: auto;
-}
-
-.header, .buttons {
-    background-color: rgb(252, 240, 196);
-    padding: 1%;
-    width: 96%;
-    border-radius: 12px;
-    margin: 1vh auto;
-    border: solid rgb(148, 112, 87);
-}
-
-.container {
-    background-color: rgb(252, 240, 196);
-    padding: 1%;
-}
-
-h1 {
-    font-family: "Monaco";
-    font-size: max(32px, 6vw);
-}
-
-.alert {
-    background-color: rgba(213, 249, 213, 0.816);
-}
-
-#menu-items {
-    padding: 2vw;
-}
-
-.menu-img {
-    aspect-ratio: 1 / 1;
+.res-img {
+    height: 70vh;
     object-fit: cover;
-    border-radius: 12px;
-    object-position: center;
-    padding: .3em;
 }
 
-.card-title {
-    font-family: "Monaco";
-    font-size: max(24px, 3vw);
-    
+.header-top {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.card {
-    background-color: rgb(245, 238, 205);
-    border-radius: 12px;
-    border: solid rgb(148, 112, 87);
-    height: 20px;
-    width: 100%;
-    padding: 0px;
-    object-position: center;
-    max-width: 440px;
-    margin: 0 auto;
+.header-top h1 {
+    background-color: rgba(50, 24, 5, 0.882);
+    margin-top: 3vh;
+    width: 100vw;
 }
 
 
-.price {
-    font-size: max(24px, 2.5vw);
-    font-family: "Monaco";
-    padding-top: .2em;
-    padding-bottom: .05em;
-}
-
-.badge {
-    background-color: rgb(247, 182, 42);
-    border-radius: 12px;
-}
-
-.btn {
-    background-color: rgb(74, 105, 89);
-    color: white;
-    font-size: max(24px, 2.5vw);
-    font-family: "Monaco";
-    border-radius: 12px;
-    margin: 15px;
-}
-
-label {
-    padding-bottom: 15px;
-}
 

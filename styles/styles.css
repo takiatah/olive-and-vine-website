@@ -1,11 +1,17 @@
+body {
+    background-color: rgb(71, 31, 2);
+    font-family: "Open Sans", Arial, sans-serif;
+}
+
 .nav-logo {
-    font-family: "Monaco";
+    font-family: "Playfair Display", serif;
     font-size: 30px;
 }
 
 .nav-search {
     height: 3rem;
     margin: auto;
+    box-shadow: 1px 1px 3px rgb(128, 120, 114);
 }
 
 #nav-search-btn {
@@ -13,90 +19,37 @@
     margin: .5rem;
 }
 
-header {
-    padding: 3%;
-    background-image: url(../images/home-header.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.navbar {
+    background-color: rgb(245, 238, 205);
+    box-shadow: 1px 2px 4px rgb(63, 62, 62);
 }
 
-.light {
-    background-color: rgb(252, 240, 196);
-    margin-bottom: 0px;
-    padding: 3vh 3vw;
-    font-family: "Trebuchet MS", Arial, sans-serif;
-    font-size: max(16px, 1.5vw);;
-}
-
-.light h2 {
+h1 {
     font-family: "Playfair Display", serif;
-    font-size: max(24px, 5vw);;
+    color: rgb(245, 238, 205);
+    text-shadow: 1px 1px 3px black;
+    font-size: max(32px, 6.5vw);
+}
+
+h2 {
+    font-family: "Playfair Display", serif;
     color: rgb(71, 31, 2);
-}
-
-.dark {
-    background-color: rgb(71, 31, 2);
-    color: white;
-    padding: 3vh 3vw;
-    font-family: "Trebuchet MS", Arial, sans-serif;
-    font-size: max(16px, 1.5vw);;
-}
-
-.dark h2 {
-    font-family: "Playfair Display", serif;
-    font-size: max(24px, 5vw);;
-    color: rgb(252, 240, 196);
-}
-
-.med {
-    background-color: rgb(148, 112, 87);
-    margin-bottom: 0px;
-    padding: 3vh 3vw;
-    font-family: "Trebuchet MS", Arial, sans-serif;
-    font-size: max(24px, 2.5vw);;
-    color: aliceblue;
-}
-
-.med h2 {
-    font-family: "Playfair Display", serif;
-    font-size: max(32px, 5vw);;
-    color: rgb(71, 31, 2);
-}
-
-.menu {
-    height: 80vh;
-    width: 100%;
-    object-fit: cover;
-    object-position: center;
-    margin: 2vh auto;
+    text-shadow: 1px 1px 3px rgb(71, 31, 2);
+    font-size: max(24px, 5vw);
 }
 
 .logo {
     width: 30vw;
     margin: auto;
-    padding-bottom: 3vh;
 }
 
-h1 {
-    font-family: "Playfair Display", serif;
-    font-size: max(32px, 6.5vw);
-    background-color: rgb(148, 112, 87);
-    border: solid 2px rgb(71, 31, 2);
-    border-radius: 12px;
-    color: white;
+.container {
+    background-color: rgb(245, 238, 205);
+    padding: 1%;
 }
 
-.pics {
-    padding: 2vw;
-}
-
-.food-border {
-    height: 50vh;
-    width: 100vw;
-    object-fit: cover;
-    margin: 0px;
-    object-position: center;
+.alert {
+    background-color: rgba(213, 249, 213, 0.816);
 }
 
 .badge {
@@ -109,12 +62,18 @@ h1 {
     color: white;
     font-size: max(24px, 2.5vw);
     font-family: "Playfair Display", serif;
-    border-radius: 12px;
+    border-radius: 10px;
     margin: 15px;
     border-color: rgb(71, 31, 2);
+    box-shadow: 1px 1px 3px rgb(48, 39, 33);
+    --bs-btn-active-bg: rgb(37, 54, 45);
+    --bs-btn-active-color: rgb(245, 238, 205);
+    --bs-btn-active-border-color: rgb(71, 31, 2);
 }
 
-label {
-    padding-bottom: 15px;
+.btn:hover, .btn:focus, .btn:focus-visible {
+    background-color: rgb(55, 80, 67);
+    color: rgb(245, 238, 205);
+    border-color: rgb(71, 31, 2);
+    box-shadow: 1px 1px 3px rgb(48, 39, 33);
 }
-

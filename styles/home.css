@@ -1,0 +1,88 @@
+header {
+    padding: 3%;
+    background-image: url(../images/home-header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    padding-bottom: 3vh;
+}
+
+h1 {
+    background-color: rgb(116, 80, 52);
+    border: solid 2px rgb(71, 31, 2);
+    border-radius: 8px;
+    box-shadow: 1px 1px 3px rgb(71, 31, 2);
+}
+
+.light {
+    background-color: rgb(252, 240, 196);
+    margin-bottom: 0px;
+    padding: 3vh 3vw;
+    font-size: max(16px, 1.5vw);;
+}
+
+.light h2 {
+    color: rgb(71, 31, 2);
+    text-shadow: 1px 1px 3px rgb(71, 31, 2);
+}
+
+.dark {
+    background-color: rgb(71, 31, 2);
+    color: white;
+    padding: 3vh 3vw;
+    font-size: max(16px, 1.5vw);;
+}
+
+.dark h2 {
+    color: rgb(252, 240, 196);
+    text-shadow: 1px 1px 3px black;
+}
+
+.med {
+    background-color: rgb(116, 80, 52);
+    padding: 2%;
+    font-size: max(24px, 2.5vw);;
+    color: antiquewhite;
+    display: flex;
+    gap: 20px;
+}
+
+.med h2 {
+    font-size: max(32px, 5vw);;
+}
+
+.section {
+    background-color: rgb(71, 31, 2);
+    min-width: 350px;
+    flex: 1;
+    padding: .5%;
+}
+
+#hours {
+    font-size: max(16px, 1.5vw);
+    color: rgb(201, 190, 151);
+}
+
+.menu {
+    height: 80vh;
+    width: 90%;
+    object-fit: cover;
+    object-position: center;
+    margin: 2vh auto;
+}
+
+.pics {
+    padding: 2vw;
+}
+
+.food-border {
+    height: 50vh;
+    width: 100vw;
+    object-fit: cover;
+    margin: 0px;
+    object-position: center;
+}
+
