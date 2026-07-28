@@ -20,7 +20,7 @@ body {
 }
 
 .navbar {
-    background-color: rgb(245, 238, 205);
+    background-color: rgb(234, 229, 207);
     box-shadow: 1px 2px 4px rgb(63, 62, 62);
 }
 
@@ -82,4 +82,16 @@ h3 {
     color: rgb(245, 238, 205);
     border-color: rgb(71, 31, 2);
     box-shadow: 1px 1px 3px rgb(48, 39, 33);
+}
+
+.footer {
+    background-color: rgb(41, 19, 4);
+}
+
+.footer-text {
+    color: rgb(234, 229, 207);
+}
+
+.nav-link:hover {
+    color: rgb(116, 80, 52);
 }

@@ -1,9 +1,5 @@
 body {
-    background-image: url(../images/menu_bg.jpg);
-}
-
-.container-fluid {
-    padding: 0;
+    background-color: rgb(37, 54, 45);
 }
 
 .header {
@@ -34,7 +30,6 @@ body {
     font-size: clamp(24px, 3vw, 50px);
     border-radius: 1em;
 }
-
 
 .menu-items > div{
     margin-top: 2vh;

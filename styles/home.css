@@ -1,20 +1,31 @@
-header {
-    padding: 3%;
-    background-image: url(../images/home-header.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.header {
+    position: relative;
+}
+
+.hero-img {
+    height: 70vh;
+    object-fit: cover;
+}
+
+.header-top {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vw;
+    z-index: 10;
 }
 
 .logo {
     padding-bottom: 3vh;
 }
 
-h1 {
-    background-color: rgb(116, 80, 52);
+.header-top h1 {
+    background-color: rgba(116, 80, 52);
     border: solid 2px rgb(71, 31, 2);
-    border-radius: 8px;
+    border-radius: 12px;
     box-shadow: 1px 1px 3px rgb(71, 31, 2);
+    margin: 0 10vw;
 }
 
 .light {
@@ -55,7 +66,9 @@ h1 {
 }
 
 .section {
-    background-color: rgb(71, 31, 2);
+    background-color: rgb(100, 67, 42);
+    box-shadow: 1px 1px 3px rgb(41, 19, 4);
+    border: solid 1px rgb(53, 26, 7);;
     min-width: 350px;
     flex: 1;
     padding: .5%;
