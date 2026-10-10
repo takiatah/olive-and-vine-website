@@ -8,3 +8,8 @@ h2 {
     text-shadow: 1px 1px 3px rgb(71, 31, 2);
     font-size: max(24px, 4vw);
 }
+
+.info {
+    color: white;
+    background-color: rgb(37, 54, 45);
+}
