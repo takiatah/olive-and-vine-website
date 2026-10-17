@@ -1,5 +1,13 @@
+body {
+    color: rgb(245, 238, 205);
+}
+
+.alert {
+    color: black;
+}
+
 h1 {
-    color: rgb(71, 31, 2);
+    color: rgb(245, 238, 205);
     text-shadow: 1px 1px 3px rgb(71, 31, 2);
 }
 
